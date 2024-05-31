@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dynamic_arr.cpp" />
     <ClCompile Include="LabB_6.2(6)_Marozau.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bag.hpp" />
+    <ClInclude Include="car.hpp" />
+    <ClInclude Include="dynamic_arr.hpp" />
+    <ClInclude Include="motorcycle.hpp" />
+    <ClInclude Include="object.hpp" />
+    <ClInclude Include="person.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
